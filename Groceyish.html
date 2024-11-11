@@ -4,11 +4,348 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Footer Design</title>
-    <link rel="stylesheet" href="index.css">
+    <title>Groceyish</title>
+    <link rel="stylesheet" href="Groceyish.css">
 </head>
 
 <body>
+
+    <!-- Navbar -->
+    <div class="navbar">
+        <!-- Logo (Clickable Link) -->
+        <div class="logo">
+            <a href="index.html"> <!-- Link to homepage -->
+                <img src="grogin-assets/image/logo.jpg" alt="Groceyish Logo">
+            </a>
+        </div>
+
+        <!-- Search Bar -->
+        <div class="search-bar">
+            <!-- All Categories with Icon -->
+            <div class="all-categories">
+                All Categories
+                <!-- Dropdown Icon -->
+                <img src="grogin-assets/ICONS/list-icon.svg" alt="">
+            </div>
+
+            <!-- Divider -->
+            <div class="divider"></div>
+
+            <!-- Search Input -->
+            <input type="text" placeholder="Search for items...">
+
+            <!-- Search Button -->
+            <button>
+                <!-- Search Icon -->
+                <img src="grogin-assets/ICONS/search.svg" alt="">
+            </button>
+        </div>
+
+        <!-- Icons -->
+        <div class="nav-icons">
+            <div class="wishlist-container">
+                <!-- Wishlist Icon with Badge -->
+                <a href="#" class="icon">
+                    <img src="grogin-assets/ICONS/heart-icon.svg" alt="">
+                    <div class="wishlist-icon">
+                        <div class="wishlist-badge">4</div>
+                    </div>
+                    <span class="wishlist-text">Wishlist</span>
+                </a>
+            </div>
+
+            <div class="cart-container">
+                <!-- Cart Icon with Badge -->
+                <a href="#" class="icon">
+                    <img src="grogin-assets/ICONS/cart.svg" alt="">
+                    <div class="cart-icon">
+                        <div class="cart-badge">1</div>
+                    </div>
+                    <!-- Text and Price -->
+                    <div class="cart-text-container">
+                        <span class="cart-text">My cart</span>
+                        <span class="cart-price">$21</span>
+                    </div>
+
+                    <!-- Dropdown Icon -->
+                    <div class="cart-item">
+                        <img src="grogin-assets/ICONS/list-icon.svg" alt="">
+                    </div>
+                </a>
+            </div>
+
+
+
+            <!-- Profile Icon -->
+            <div class="user-profile">
+                <img src="grogin-assets/image/profile.png" alt="Profile Picture" class="profile-image">
+                <span class="name">Ramzi Cherif</span>
+                <div class="cart-item">
+                    <img src="grogin-assets/ICONS/list-icon.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Bottom Submenu Section -->
+    <div class="bottom-submenu">
+        <button class="all-categories-button">
+            <img src="grogin-assets/ICONS/layout.png" alt="Browse All Categories" />
+            Browse All Categories
+        </button>
+        <a href="#" class="menu-item">
+            <img src="grogin-assets/ICONS/Home.svg" alt="Home" />
+            Home
+        </a>
+        <a href="#" class="menu-item">
+            <img src="grogin-assets/ICONS/hot deals.svg" alt="Hot deals" />
+            Hot deals
+        </a>
+        <a href="#" class="menu-item">
+            <img src="grogin-assets/ICONS/percent.svg" alt="Promotions" />
+            Promotions
+        </a>
+        <a href="#" class="menu-item">
+            <img src="grogin-assets/ICONS/megaphone.svg" alt="New products" />
+            New products
+        </a>
+        <div class="support-center">
+            <span>
+                <img src="grogin-assets/ICONS/Support.png" alt="Support" />
+            </span>
+        </div>
+    </div>
+
+    <!-- subscription-banner -->
+    <div class="subscription-banner12">
+        <!-- Background Pattern (Optional) -->
+        <div class="pattern12"></div>
+
+        <!-- Text Content -->
+        <div class="text-content12">
+            <h1>Don't miss our daily<br>amazing deals.</h1>
+            <p>Save up to 60% off on your first order</p>
+            <div class="subscription-form12">
+                <div class="mail123">
+                    <img src="grogin-assets/ICONS/send.svg" alt="">
+                </div>
+                <input type="email" placeholder="      Enter your email address">
+                <button>Subscribe</button>
+            </div>
+        </div>
+
+        <!-- Floating Images -->
+        <div class="floating-images12">
+            <img src="grogin-assets/image/Hero.png" alt="">
+            <!-- Add more images as needed -->
+        </div>
+
+        <!-- Indicator Section -->
+        <div class="indicator12">
+            <img src="grogin-assets/ICONS/indicators.svg" alt="">
+        </div>
+    </div>
+
+    <!-- Floating Images -->
+
+    <!-- Explorecontainer -->
+    <div class="Explorecontainer">
+        <div class="Exploreheading">
+            <div class="Exploreheader">Explore Categories</div>
+
+            <div class="Explorefilters">
+                <a href="#" class="active">All</a>
+                <a href="#">Vegetables</a>
+                <a href="#">Fruits</a>
+                <a href="#">Coffee & teas</a>
+                <a href="#">Meat</a>
+            </div>
+        </div>
+
+        <div class="Explorecategories">
+            <div class="Exploreleftarrow">
+                <img src="grogin-assets/ICONS/Left.svg" alt="">
+            </div>
+            <div class="Explorecategory-card peach">
+                <img src="grogin-assets/image/Peach.png" alt="Peach">
+                <div class="Explorecategory-name">Peach</div>
+                <div class="Explorecategory-items">20 Items</div>
+            </div>
+
+            <div class="Explorecategory-card vegetables">
+                <img src="grogin-assets/image/Leaf.png" alt="Vegetables">
+                <div class="Explorecategory-name">Vegetables</div>
+                <div class="Explorecategory-items">220 Items</div>
+            </div>
+
+            <div class="Explorecategory-card strawberry">
+                <img src="grogin-assets/image/strawberry.png" alt="Strawberry">
+                <div class="Explorecategory-name">Strawberry</div>
+                <div class="Explorecategory-items">10 Items</div>
+            </div>
+
+            <div class="Explorecategory-card apple">
+                <img src="grogin-assets/image/Apple.png" alt="Apple">
+                <div class="Explorecategory-name">Apple</div>
+                <div class="Explorecategory-items">40 Items</div>
+            </div>
+
+            <div class="Explorecategory-card orange">
+                <img src="grogin-assets/image/Orange1.png" alt="Orange">
+                <div class="Explorecategory-name">Orange</div>
+                <div class="Explorecategory-items">23 Items</div>
+            </div>
+
+            <div class="Explorecategory-card potato">
+                <img src="grogin-assets/image/Pottato.png" alt="Potato">
+                <div class="Explorecategory-name">Potato</div>
+                <div class="Explorecategory-items">3 Items</div>
+            </div>
+
+            <div class="Explorecategory-card carrot">
+                <img src="grogin-assets/image/Carrot.png" alt="Carrot">
+                <div class="Explorecategory-name">Carrot</div>
+                <div class="Explorecategory-items">9 Items</div>
+            </div>
+            <div class="Explorerightarrow">
+                <img src="grogin-assets/ICONS/right.svg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!-- Featured-container -->
+    <div class="Featured-container">
+        <div class="feature123">
+            <h2>Featured Products</h2>
+        </div>
+        <div class="filter-links">
+            <a href="#">All</a>
+            <a href="#" class="active">Vegetables</a>
+            <a href="#">Fruits</a>
+            <a href="#">Coffee & Teas</a>
+            <a href="#">Meat</a>
+        </div>
+        <div class="products">
+            <div class="leftarrow">
+                <img src="grogin-assets/ICONS/Left.svg" alt="">
+            </div>
+            <div class="product-container1">
+                <div class="product12-card">
+
+                    <img src="grogin-assets/image/Redish.png" alt="Coffe 1kg" class="product12-image">
+                    <!-- Replace with actual image URL -->
+                    <div class="product-details1">
+                        <p class="category12">Vegetables</p>
+                        <h3 class="product12-name">Redish 500g</h3>
+                        <div class="rating12">
+                            <a href="#"><img src="grogin-assets/ICONS/rating.svg" alt=""></a>
+                        </div>
+                        <p class="seller12">By <a href="#">Mr.food</a></p>
+                        <div class="product-price-container12">
+                            <span class="current-price12">$1</span>
+                            <span class="old-price12">$1.99</span>
+                            <button class="add-button12">
+                                <img src="grogin-assets/ICONS/1cart.svg" alt="">
+                                Add
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="product123-card">
+
+                    <img src="grogin-assets/image/potato.png" alt="Coffe 1kg" class="product123-image">
+                    <!-- Replace with actual image URL -->
+                    <div class="product-details1">
+                        <p class="category123">Vegetables</p>
+                        <h3 class="product-name123">Potatos 1kg</h3>
+                        <div class="rating123">
+                            <a href="#"><img src="grogin-assets/ICONS/rating.svg" alt=""></a>
+                        </div>
+                        <p class="seller123">By <a href="#">Mr.food</a></p>
+                        <div class="product-price-container123">
+                            <span class="current-price123">$1</span>
+                            <span class="old-price123">$1.99</span>
+                            <button class="add-button123">
+                                <img src="grogin-assets/ICONS/1cart.svg" alt="">
+                                Add
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="product1234-card">
+
+                    <img src="grogin-assets/image/Tomato.png" alt="Coffe 1kg" class="product1234-image">
+                    <!-- Replace with actual image URL -->
+                    <div class="product-details1">
+                        <p class="category1234">Vegetables</p>
+                        <h3 class="product1234-name">Tomato 200g</h3>
+                        <div class="rating1234">
+                            <a href="#"><img src="grogin-assets/ICONS/rating.svg" alt=""></a>
+                        </div>
+                        <p class="seller1234">By <a href="#">Mr.food</a></p>
+                        <div class="product-price-container1234">
+                            <span class="current-price1234">$1</span>
+                            <span class="old-price1234">$1.99</span>
+                            <button class="add-button1234">
+                                <img src="grogin-assets/ICONS/1cart.svg" alt="">
+                                Add
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="product12345-card">
+
+                    <img src="grogin-assets/image/Broccoli.png" alt="Coffe 1kg" class="product12345-image">
+                    <!-- Replace with actual image URL -->
+                    <div class="product-details1">
+                        <p class="category12345">Vegetables</p>
+                        <h3 class="product12345-name">Broccoli 1kg</h3>
+                        <div class="rating12345">
+                            <a href="#"><img src="grogin-assets/ICONS/rating.svg" alt=""></a>
+                        </div>
+                        <p class="seller12345">By <a href="#">Mr.food</a></p>
+                        <div class="product-price-container12345">
+                            <span class="current-price12345">$1</span>
+                            <span class="old-price12345">$1.99</span>
+                            <button class="add-button12345">
+                                <img src="grogin-assets/ICONS/1cart.svg" alt="">
+                                Add
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="product123456-card">
+
+                    <img src="grogin-assets/image/Greenbeans.png" alt="Coffe 1kg" class="product123456-image">
+                    <!-- Replace with actual image URL -->
+                    <div class="product-details1">
+                        <p class="category123456">Vegetables</p>
+                        <h3 class="product123456-name">Green Beans 250g</h3>
+                        <div class="rating123456">
+                            <a href="#"><img src="grogin-assets/ICONS/rating.svg" alt=""></a>
+                        </div>
+                        <p class="seller123456">By <a href="#">Mr.food</a></p>
+                        <div class="product-price-container123456">
+                            <span class="current-price123456">$1</span>
+                            <span class="old-price123456">$1.99</span>
+                            <button class="add-button123456">
+                                <img src="grogin-assets/ICONS/1cart.svg" alt="">
+                                Add
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="rightarrow">
+                <img src="grogin-assets/ICONS/right.svg" alt="">
+            </div>
+        </div>
+    </div>
+
 
     <!-- promo-container -->
     <div class="promo-container">
@@ -494,7 +831,7 @@
                 &copy; 2022, All rights reserved
             </div>
             <div class="payment-icons">
-                <a href="#"><img src="grogin-assets/image/Payments.jpg" alt="Facebook"></a>
+                <a href="#"><img src="grogin-assets/image/Payment.png" alt="Facebook"></a>
             </div>
             <div class="social-icons">
                 <a href="#"><img src="grogin-assets/ICONS/facebook.svg" alt="Facebook"></a>
